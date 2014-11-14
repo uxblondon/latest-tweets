@@ -1,0 +1,14 @@
+{
+    "name": "uxblondon/latest-tweets",
+    "description": "Retrieves the latest tweets for a given twitter username.",
+    "authors": [
+        {
+            "name": "Rob Taylor",
+            "email": "rob@uxblondon.com"
+        }
+    ],
+	"license":     "BSD-2-Clause",
+    "require": {
+        "ruudk/twitter-oauth": "*"
+    }
+}
