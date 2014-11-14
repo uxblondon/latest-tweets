@@ -2,7 +2,7 @@
 
 namespace Twitter;
 
-use TwitterOAuth\Api as TwitterApi;
+use TwitterOAuth\TwitterOAuth as TwitterApi;
 
 class LatestTweets
 {
@@ -25,7 +25,7 @@ class LatestTweets
 
     public function getLatestTweet($username)
     {
-        $tweets = $this->getTweets($userame, 1);
+        $tweets = $this->getTweets($username, 1);
 
         return isset($tweets[0]) ? $tweets[0] : null;
     }
