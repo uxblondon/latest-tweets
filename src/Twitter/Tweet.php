@@ -39,7 +39,7 @@ class Tweet
      */
     public function getScreenName()
     {
-        return $this->data['screen_name'];
+        return $this->data['user']->screen_name;
     }
 
     /**
