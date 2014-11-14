@@ -3,6 +3,7 @@
 namespace Twitter;
 
 use DateTimeImmutable;
+use Twitter_Autolink as Autolink;
 
 class Tweet
 {
