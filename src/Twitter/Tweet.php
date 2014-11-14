@@ -31,7 +31,7 @@ class Tweet
     {
         $autolink = new Autolink;
 
-        return $autoling->autoLink($this->getText());
+        return $autolink->autoLink($this->getText());
     }
 
     /**
