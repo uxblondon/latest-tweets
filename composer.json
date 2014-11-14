@@ -9,7 +9,8 @@
     ],
 	"license":     "BSD-2-Clause",
     "require": {
-        "ruudk/twitter-oauth": "*"
+        "ruudk/twitter-oauth": "*",
+        "ricardoper/twitteroauth": "1.*"
     },
     "autoload": {
         "classmap": ["src"]
