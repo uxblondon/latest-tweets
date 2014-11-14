@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "47fe3c8979239aa42c7c9a8c74245075",
+    "hash": "efdc0810b8da8beec3d681817602dad6",
     "packages": [
         {
             "name": "ricardoper/twitteroauth",
@@ -50,41 +50,6 @@
                 "twitter"
             ],
             "time": "2014-09-09 15:44:14"
-        },
-        {
-            "name": "ruudk/twitter-oauth",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ruudk/twitteroauth.git",
-                "reference": "44462f541eaf08bfe4ab4f8f5fe9db456d1e4f3f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ruudk/twitteroauth/zipball/44462f541eaf08bfe4ab4f8f5fe9db456d1e4f3f",
-                "reference": "44462f541eaf08bfe4ab4f8f5fe9db456d1e4f3f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Ruud Kamphuis",
-                    "email": "ruud@1plus1media.nl",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PHP 5.3 version of abraham/twitteroauth",
-            "homepage": "http://github.com/ruudk/twitteroauth",
-            "time": "2012-08-07 14:11:00"
         }
     ],
     "packages-dev": [],
