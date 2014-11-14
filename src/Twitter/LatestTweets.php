@@ -40,7 +40,7 @@ class LatestTweets
         ));
 
         array_walk($tweets, function(&$tweet) {
-            $tweet = new Tweet($tweet);
+            $tweet = new Tweet( (array) $tweet);
         });
 
         return $tweets;
