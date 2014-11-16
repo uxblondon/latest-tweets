@@ -14,12 +14,11 @@ class LatestTweets
 
     /**
      *
-     * @param string $apiKey
-     * @param string $apiSecret
+     * @param array $apiConfig
      */
-    public function __construct(TwitterApi $api)
+    public function __construct(array $apiConfig)
     {
-        $this->api = $api;
+        $this->api = new TwitterApi($apiConfig);
     }
 
     public function getLatestTweet($username)
