@@ -12,7 +12,6 @@ class LatestTweets
      */
     private $api;
 
-
     /**
      *
      * @param string $apiKey
